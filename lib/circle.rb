@@ -1,5 +1,6 @@
 require './token'
 
+# Circle
 class Circle < Token
   @@symbol = '⭕'
   def symbol

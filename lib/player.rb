@@ -1,7 +1,10 @@
 class Player
   attr_reader :name, :token
-  def initialize(name, token)
+  def initialize(name)
     @name = name
+  end
+
+  def set_token(token)
     @token = token
   end
 end

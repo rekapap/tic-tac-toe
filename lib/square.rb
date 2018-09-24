@@ -1,10 +1,11 @@
 class Square
   attr_reader :row, :col
-  attr_writer :token
+  attr_accessor :token
   def initialize(row, col, token = nil)
     @row = row
     @col = col
     @token = token
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME

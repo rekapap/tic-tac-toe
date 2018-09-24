@@ -1,6 +1,6 @@
 module MapMaker
   # MAP MAKER
-  puts 'Your string to map:'
+  # puts 'Your string to map:'
   string = '
      X ┃ X ┃ X
     ━━━╋━━━╋━━━
